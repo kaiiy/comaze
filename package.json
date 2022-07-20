@@ -1,0 +1,51 @@
+{
+  "name": "comaze",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "@nuxtjs/composition-api": "^0.32.0",
+    "axios": "^0.26.1",
+    "core-js": "^3.21.1",
+    "crypto-js": "^4.1.1",
+    "global": "^4.4.0",
+    "nuxt": "^2.15.8",
+    "vuetify": "^2.6.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@nuxtjs/eslint-config": "^9.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/tailwindcss": "^5.0.2",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@types/crypto-js": "^4.1.1",
+    "@vue/runtime-dom": "^3.2.31",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "license-info-webpack-plugin": "^3.0.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.49.11",
+    "sass-loader": "^10.1.1",
+    "webpack-license-plugin": "^4.2.2"
+  },
+  "resolutions": {
+    "git-url-parse": "^12.0.0",
+    "glob-parent": "^5.1.2",
+    "nth-check": "^2.1.1"
+  },
+  "volta": {
+    "node": "16.16.0"
+  }
+}
